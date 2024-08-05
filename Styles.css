@@ -1,0 +1,308 @@
+/* formatação para o google chrome */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+
+  &[disable] {
+    cursor: not-allowed;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ---------------------------Inicio css------------------------------------------------------- */
+body {
+  background-color: #e2dfdf;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #FEB75A;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+}
+
+h1 {
+  display: flex;
+  color: #FF910B;
+  width: 100%;
+  height: 70px;
+  font-size: 30px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.navbar {
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+  padding: 10px;
+  color: #FF910B;
+  
+
+}
+
+
+.h2home {
+  display: flex;
+  color: #FF910B;
+  width: 100%;
+  height: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragrafoHome {
+  font-size: 15px;
+}
+
+.containerHomeUm {
+  display: flex;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  flex-direction: column;
+  gap: 17px;
+  width: 780px;
+  height: 130px;
+  margin: 0 auto;
+
+}
+
+
+.h2Sobre {
+  display: flex;
+  color: #FF910B;
+  width: 100%;
+  height: 5px;
+  font-size: 26px;
+  font-weight: bold;
+  align-items: center;
+
+}
+
+
+.h2NossoTime {
+  display: flex;
+  color: #FF910B;
+  width: 100%;
+  height: 5px;
+  font-size: 26px;
+  font-weight: bold;
+  align-items: center;
+
+
+}
+
+.membrosTime {
+  display: flex;
+  gap: 100px;
+
+
+}
+
+.membroUm {
+  display: flex;
+  width: 180px;
+  text-align: center;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.membroDois {
+  display: flex;
+  width: 120px;
+  text-align: center;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.membroTres {
+  display: flex;
+  width: 250px;
+  text-align: center;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerSobreNos {
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+  gap: 17px;
+  width: 760px;
+  height: 1500px;
+  margin: 0 auto;
+  font-size: 15px;
+  padding: 20px;
+}
+
+.nomeChefe {
+
+  margin-top: 10px;
+  font-size: 16px;
+  color: #FF910B;
+}
+
+.nossaHistoriaColor {
+  display: flex;
+  color: #FF910B;
+  width: 100%;
+  height: 5px;
+  font-size: 26px;
+  font-weight: bold;
+  align-items: center;
+
+}
+.nossosValores {
+  display: flex;
+  color: #FF910B;
+  width: 100%;
+  height: 5px;
+  font-size: 26px;
+  font-weight: bold;
+  align-items: center;
+}
+.nossosValoresColor {
+  display: flex;
+  color: #FF910B;
+  width: 100%;
+  height: 5px;
+  font-size: 26px;
+  font-weight: bold;
+  align-items: center;
+}
+.encontrenosMaps {
+  display: flex;
+  color: #FF910B;
+  width: 100%;
+  height: 5px;
+  font-size: 26px;
+  font-weight: bold;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.iframe{
+  display: flex;
+  margin: auto;
+}
+
+.containerCardapio{display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+  gap: 17px;
+  width: 760px;
+  height: 1080px;
+  margin: 0 auto;
+  font-size: 15px;
+  padding: 20px;
+}
+
+
+/* Cores */
+.nav-yellow {
+  background-color: orange;
+}
+
+
+
+/* Espaçamentos */
+.m-t-30 {
+  margin-top: 30px;
+}
+
+.img-produto {
+  display: block;
+  margin: 0 auto;
+  width: 240px;
+}
+
+.table-orange * {
+  color: white !important;
+  background: orange !important;
+}
+
+.containerContato{display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+  gap: 17px;
+  width: 760px;
+  height: 1080px;
+  margin: 0 auto;
+  font-size: 15px;
+  padding: 20px;
+}
+
+
+
+.contatoEscrita {
+  display: flex;
+  color: #FF910B;
+  width: 100%;
+  height: 5px;
+  font-size: 26px;
+  font-weight: bold;
+  align-items: center;
+
+}
+
+.form-label{
+  display: flex;
+  color: #FF910B;
+  width: 100%;
+  height: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+
+}
+
+.btnContato{
+  display: flex;
+  font-size: 30px;
+  color: #FF910B;
+  border-radius: 40%;
+  margin: 0 auto;
+  border-bottom: black;
+}
+
